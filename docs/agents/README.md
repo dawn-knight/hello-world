@@ -7,7 +7,7 @@ This folder contains reusable role briefs and shared workflows for running a sma
 - Pick a **project** and create a short spec (or paste an existing one) using `templates/task-brief.md`.
 - Assign one or more roles from `roles/ROLE_INDEX.md`.
 - For each agent, paste:
-  - the relevant role brief (e.g. `roles/gameplay-programmer.md`)
+  - the relevant role prompt (e.g. `prompts/gameplay-programmer.md`)
   - the current task brief
   - any repo constraints (engine/tech stack, target platforms, performance budgets)
 - Require every agent output to include:
@@ -29,6 +29,7 @@ These docs are tool-agnostic. If you want a predictable structure for agent outp
 
 - `TEAM_CHARTER.md`: shared rules (Definition of Done, quality bars, handoffs)
 - `WORKFLOWS.md`: planning → implementation → review → QA → release
-- `roles/`: one file per role (definition, responsibilities, instructions)
+- `roles/`: role index (and optional expanded role briefs)
+- `prompts/`: copy/paste-ready agent prompts per role (matching `templates/prompt-header.md`)
 - `templates/`: task briefs, handoffs, review checklists, prompt header
 
